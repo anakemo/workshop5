@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+header{
+    background-color: black;
+    width: 1440px;
+    height: 130px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.logo a{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    background-image: url(../images/music-note.png);
+    background-size: 100%;
+    float: left;
+    
+}
+
+
+.nav{
+    height: 21px;
+    width: 271px;
+    margin-top: 37px;
+    margin-bottom: 36px;
+    margin-left: 338px;
+    margin-right: 831px;
+   
+}
+
+.nav a{
+    float: left;
+    padding: 5px;
+    padding: 10px;
+   font-size: 18px;
+   color:rgba(255, 255, 255, 1);
+   
+}
+main{
+    padding-top: 51px;
+    padding-left: 109px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.todayhits{
+    width: 126px;
+    height: 28px;
+    margin-top: 100px;
+    margin-left: 0%;
+    font-size: 24px;
+}
+
+
+article{
+    width: 300px;
+    height: 271px;
+    
+    float: left;
+    margin-right: 100px;
+    margin-top: 72px;
+
+}
+article:hover{
+    border: 1px;
+    border-color:rgba(0, 0, 0, 1);
+    border: solid;
+}
+
+.sec{
+    width: 298x;
+    height: 244px;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    
+    
+
+    
+
+}
+
+.voice{
+    width:260px;
+    height: 65px;
+    background-image: url(../images/sound.png);
+    background-size: 30%;
+    background-repeat: repeat-x;
+     margin-top: 57px;
+
+}
+.guli{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/like.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.trackname{
+    width: 97px;
+    height: 21px;
+    margin-top: 23px;
+    margin-left: 12px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    
+}
+.artisttext{
+    width: 147px;
+    height: 16px;
+    font-size: 14px;
+    margin-bottom: 49px;
+    margin-left: 12px;
+}
+.gotothisone{
+    width: 150px;
+    height: 12px;
+    margin-bottom:2px;
+}
+
+
+.social{
+    width: 50px;
+height: 100px;
+position:absolute;
+top: 119px;
+right: 0px;
+}
+
+.inst{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/instagram.png);
+    background-size: 100%;
+    
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/fb.png);
+    background-size: 100%;
+    
+}
+
+
+
