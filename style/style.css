@@ -15,6 +15,7 @@ header{
 .logo a{
     width: 70px;
     height: 70px;
+    
     margin-left: 100px;
     background-image: url(../images/music-note.png);
     background-size: 100%;
@@ -25,7 +26,7 @@ header{
 
 .nav{
     height: 21px;
-    width: 271px;
+    width: 400px;
     margin-top: 37px;
     margin-bottom: 36px;
     margin-left: 338px;
@@ -35,10 +36,10 @@ header{
 
 .nav a{
     float: left;
-    padding: 5px;
-    padding: 10px;
+    margin-right: 20px;
    font-size: 18px;
    color:rgba(255, 255, 255, 1);
+   padding: 5px 10px;
    
 }
 main{
@@ -46,6 +47,8 @@ main{
     padding-left: 109px;
     margin-right: 0px;
     position: relative;
+    float: left;
+   
 }
 
 .todayhits{
@@ -134,7 +137,7 @@ article:hover{
 .social{
     width: 50px;
 height: 100px;
-position:absolute;
+position: fixed;
 top: 119px;
 right: 0px;
 }
@@ -155,4 +158,108 @@ right: 0px;
 }
 
 
+.footer{
+    width: 1440px;
+    height: 355px;
+    background-color: black;
+    margin-top: 1581px;
+    margin-bottom: 0px;
+    
+}
 
+.logo2{
+   width: 150px;
+   height: 150px;
+   background-image: url(../images/music-note.png);
+   background-size: 100%;
+   margin: 27px 645px 0px ;   
+   float: left;
+   
+}
+
+.logo2 a{
+    display: block;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.navigacia2{
+    width: 91px;
+    height: 63px; 
+    margin: 26px 674px 50px 674px;
+    color: white;
+    float: left;
+    
+   
+
+}
+.navigacia2 a{
+    color: white;
+    font-size: 16px;
+   
+}
+
+.allrights{
+    width: 144px;
+    height: 21px;
+    color: white;
+    margin: 0px 648px 17px 648px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    
+
+
+}
+
+/* meore gverdi */
+
+
+.box{
+    height: 361px;
+    width: 280px;
+    margin-top: 51px;
+    margin-right: 109px;
+    float: left;
+    
+
+}
+.meore{
+    margin-left: -80px;
+    
+}
+
+.box:hover{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.box h2{
+  margin-bottom: 51px;
+}
+.box p{
+    margin-bottom: 8px;
+    width: 280px;
+    height: 21px;
+    
+}
+.volumebox{
+    height: 65px;
+    width: 260px;
+    margin-top: 552px;
+    margin-left: 594px;
+    margin-bottom: 106px;
+    margin-right: 559px;
+    background-image: url(../images/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+}
+.thanks{
+    width: 343px;
+    height: 42px;
+    margin-top: 107px;
+    margin-left: 548px;
+    margin-bottom: 143px;
+    font-size: 36px;
+}
