@@ -73,7 +73,12 @@ article:hover{
     border: 1px;
     border-color:rgba(0, 0, 0, 1);
     border: solid;
+    box-shadow: 2px;
+    
+    
+    
 }
+
 
 .sec{
     width: 298x;
@@ -111,6 +116,13 @@ article:hover{
 
 }
 
+.guli:hover{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/like\ 2.png);
+    background-size: 100%;
+
+}
 .trackname{
     width: 97px;
     height: 21px;
@@ -132,6 +144,10 @@ article:hover{
     height: 12px;
     margin-bottom:2px;
 }
+.gotothisone:hover{
+    text-decoration: underline;
+
+}
 
 
 .social{
@@ -142,6 +158,7 @@ top: 119px;
 right: 0px;
 }
 
+
 .inst{
     width: 50px;
     height: 50px;
@@ -149,12 +166,28 @@ right: 0px;
     background-size: 100%;
     
 }
+
+.inst:hover{
+    width: 50px;
+    height: 50px;
+    background-image:url(../images/insta2.png);
+    
+    background-size: 100%;
+}
 .fb{
     width: 50px;
     height: 50px;
     background-image: url(../images/fb.png);
     background-size: 100%;
     
+}
+.fb:hover{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/fb2.png);
+    background-size: 100%;
+    
+
 }
 
 
@@ -230,9 +263,13 @@ right: 0px;
 }
 
 .box:hover{
-    border: 1px;
-    border-color: black;
+    border: 5px;
+    border-color:rgb(196, 190, 190);
     border-style: solid;
+    background-color: rgb(196, 190, 190);
+    box-shadow: grey, 10px;
+    
+   
 }
 
 .box h2{
@@ -263,3 +300,4 @@ right: 0px;
     margin-bottom: 143px;
     font-size: 36px;
 }
+
